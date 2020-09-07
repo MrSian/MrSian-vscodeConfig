@@ -1,0 +1,63 @@
+{
+  "workbench.colorTheme": "Quiet Light",
+  "files.autoSave": "off",
+  // "window.zoomLevel": 1,
+  "git.ignoreMissingGitWarning": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.associations": {
+    "*.wxa": "vue",
+    "*.wx": "vue",
+    "*.wxc": "vue",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  //  #去掉代码结尾的分号
+  // "prettier.semi": true,
+  //  #使用单引号替代双引号
+  // "prettier.singleQuote": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  // #让vue中的js按编辑器自带的ts格式进行格式化
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "auto"
+      // #vue组件中html代码格式化样式
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttrbutes": false
+    }
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "terminal.integrated.rendererType": "dom",
+  "[vue]": {
+    // "editor.defaultFormatter": "qiang014.vetur-e"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  }
+}
